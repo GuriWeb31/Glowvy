@@ -8,7 +8,7 @@ import Banner from './screens/Inc/Banner';
 function Home() {
   return (
     <>
-      <Banner />
+      <Banner />  
     </>
   );
 }
