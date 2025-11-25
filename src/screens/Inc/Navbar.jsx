@@ -8,7 +8,7 @@ const Navbar = () => {
 
 <nav class="px-5">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto grid grid-cols-3">
-  <a href="" class="flex items-center space-x-3 rtl:space-x-reverse order-2 xl:order-2 md:order-2 lg:order-2 sm:order-1 justify-center text-[32px] font-semibold">GLOWVY</a>
+  <a href="" class="flex items-center space-x-3 rtl:space-x-reverse  xl:order-2 md:order-2 lg:order-2 sm:order-1 justify-center text-[32px] font-semibold">GLOWVY</a>
   <div class="inline-flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse w-fit ml-auto">
     
         <img src={heart} alt='heart' className=' w-[32px] mr-6'/>

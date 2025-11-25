@@ -7,7 +7,7 @@ const Banner = () => {
       <div className='max-w-screen-xl m-auto'>
         <div className='grid grid-cols-1 xl:grid-cols-3 md:grid-cols-3 lg:grid-cols-3'>
           <div className=''>
-            <h1 className='text-[48px]'>Indulge in Pure </h1>
+            <h1 className='text-[68px] leading-18 font-semibold'>Indulge in Pure </h1>
           </div>
           <div className=''>
             <img src={close} alt='' className='w-full rounded-t-[300px]'/>
