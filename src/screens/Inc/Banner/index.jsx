@@ -10,7 +10,7 @@ const Banner = () => {
     <section className='py-15 px-5'>
       <div className='max-w-screen-xl m-auto'>
         <div className='grid grid-cols-1 xl:grid-cols-3 md:grid-cols-3 lg:grid-cols-3'>
-          <div className='pt-10'>
+          <div className='pt-10 animate-slideLeft'>
             <h1 className='text-[68px] leading-20 font-semibold'>Indulge in Pure<span className='inline-flex'><img src={eyes} alt='' className='w-full ml-5' /></span> </h1>
             <h1 className='elegance text-[68px] text-[#60AD44]'>Elegance</h1>
 
@@ -19,7 +19,7 @@ const Banner = () => {
             <button className='bg-[#28AF58] text-white px-10 py-4 text-[18px] rounded-[8px] mt-8'>Add to cart</button>
           </div>
           <div className=''>
-            <div className='relative'>
+            <div className='relative animate-fadeUp'>
               <div className='absolute top-80 left-[-190px]'>
                 <div className='flex gap-3 items-center backdrop-blur-sm bg-white/30 p-3 pr-8 rounded-2xl shadow-2xl'>
                   <div>
@@ -36,7 +36,7 @@ const Banner = () => {
           </div>
           <div className='pt-12'>
             <div className=''>
-              <img src={bottle} alt='' className='w-80 m-auto'/>
+              <img src={bottle} alt='' className='w-80 m-auto animate-slideRight'/>
 
               <div className='coll'>
                  <Accordion />
