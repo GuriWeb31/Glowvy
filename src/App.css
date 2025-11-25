@@ -40,3 +40,9 @@ h1.elegance {
 }
 
 /* animation end */
+.sign-up {
+    transition: 0.3s;
+}
+.sign-up:hover {
+    background: #28af58;
+}
