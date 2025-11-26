@@ -81,3 +81,10 @@ img.protransform:hover {
 img.protransform {
     transition: 0.2s;
 }
+input#email:focus {
+    outline: none;
+}
+::selection {
+    background: #28af58;
+    color: #fff;
+}

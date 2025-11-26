@@ -24,7 +24,7 @@ const Footer = () => {
               <p className='text-[18px] pb-3 text-[#222222]'>Home</p>
               <p className='text-[18px] pb-3 text-[#222222]'>About</p>
               <p className='text-[18px] pb-3 text-[#222222]'>All Product</p>
-              <p className='text-[18px]'>How to use</p>
+              <p className='text-[18px] text-[#222222]'>How to use</p>
             </div>
             <div>
               <h3 className='text-[20px] font-semibold pb-4'>Legal</h3>
@@ -33,7 +33,10 @@ const Footer = () => {
             </div>
             <div>
               <h3 className='text-[38px] font-semibold pb-3'>Lets's Talk Us</h3>
-             
+             <form className='flex gap-2 '>
+              <input type='text' className='border p-3 w-[100%] rounded-[6px]' placeholder='Email Address' id='email' required/>
+              <button type='submit' className='bg-[#28AF58] text-white px-5 p-3 text-[18px] rounded-[6px]'>Sent</button>
+             </form>
             </div>
          </div>
       </div>
