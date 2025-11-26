@@ -8,17 +8,17 @@ const Benifits = () => {
             <div className='max-w-screen-xl m-auto'>
                 <div className='grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 gap-10'>
                     <div>
-                        <div className='flex gap-4 items-end'>
+                        <div className='flex gap-4 items-center'>
                             <div>
-                                <img src={bottleone} alt='' className='w-[200px] border border-[#8d8d89] p-3 rounded-[8px]'/>
+                                <img src={bottleone} alt='' className='w-[200px] border border-[#b9b9b9] p-3 rounded-[8px]'/>
                             </div>
                             <div>
                                <p className='text-[#222222] text-[20px] mt-3 mr-4'>Rich in vitamins A, C, E, and minerals like calcium <br></br>and iron</p>
                             </div>
                         </div>
-                        <div className='flex gap-4 items-end mt-10'>
+                        <div className='flex gap-4 items-center mt-10'>
                             <div>
-                                <img src={bottleone} alt='' className='w-[200px] border border-[#8d8d89] p-3 rounded-[8px]'/>
+                                <img src={bottletwo} alt='' className='w-[200px] border border-[#b9b9b9] p-3 rounded-[8px]'/>
                             </div>
                             <div>
                                <p className='text-[#222222] text-[20px] mt-3 mr-4'>Rich in vitamins A, C, E, and minerals like calcium <br></br>and iron</p>
@@ -26,17 +26,17 @@ const Benifits = () => {
                         </div>
                     </div>
                     <div>
-                       <div className='flex gap-4 items-end'>
+                       <div className='flex gap-4 items-center'>
                             <div>
-                                <img src={bottletwo} alt='' className='w-[200px] border border-[#8d8d89] p-3 rounded-[8px]'/>
+                                <img src={bottletwo} alt='' className='w-[200px] border border-[#b9b9b9] p-3 rounded-[8px]'/>
                             </div>
                             <div>
                                <p className='text-[#222222] text-[20px] mt-3 mr-4'>Rich in vitamins A, C, E, and minerals like calcium <br></br>and iron</p>
                             </div>
                         </div>
-                        <div className='flex gap-4 items-end mt-10'>
+                        <div className='flex gap-4 items-center mt-10'>
                             <div>
-                                <img src={bottleone} alt='' className='w-[200px] border border-[#8d8d89] p-3 rounded-[8px]'/>
+                                <img src={bottleone} alt='' className='w-[200px] border border-[#b9b9b9] p-3 rounded-[8px]'/>
                             </div>
                             <div>
                                <p className='text-[#222222] text-[20px] mt-3 mr-4'>Rich in vitamins A, C, E, and minerals like calcium <br></br>and iron</p>
