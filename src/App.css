@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+TAS:wght@100..400&display=swap');
 
+
 body {
     background: #FFFBF5;
     font-family: "Inter", sans-serif;
@@ -72,4 +73,11 @@ span.elegance {
 .fade-up.show {
   opacity: 1;
   transform: translateY(0px);
+}
+
+img.protransform:hover {
+    transform: scale(1.06);
+}
+img.protransform {
+    transition: 0.2s;
 }
