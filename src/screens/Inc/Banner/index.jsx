@@ -19,11 +19,11 @@ const Banner = () => {
             <button className='bg-[#28AF58] text-white px-10 py-4 text-[18px] rounded-[8px] mt-8'>Add to cart</button>
           </div>
           <div className=''>
-            <div className='relative animate-fadeUp'>
+            <div className='relative animate-fadeUp '>
               <div className='absolute top-80 left-[-190px]'>
                 <div className='flex gap-3 items-center backdrop-blur-xl bg-white/30 p-3 pr-8 rounded-2xl shadow-2xl'>
                   <div>
-                     <img src={happywomen} alt='' className='w-15 h-15 rounded-full object-cover'/>
+                     <img src={happywomen} alt='' className='w-15 h-15 rounded-full object-cover '/>
                   </div>
                   <div>
                     <p className='text-[18px]'>Lucifer Jens</p>
@@ -32,7 +32,7 @@ const Banner = () => {
                 </div>
               </div>
             </div>
-            <img src={close} alt='' className='w-full rounded-t-[300px]'/>
+            <img src={close} alt='' className='w-full rounded-t-[300px] '/>
           </div>
           <div className='pt-12'>
             <div className=''>

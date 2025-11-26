@@ -40,7 +40,7 @@ const AccordionItem = ({ title, content }) => {
 
 const Accordion = () => {
   return (
-    <div className="w-80   m-auto">
+    <div className="w-80   m-auto ">
       <AccordionItem 
         title="Skincare"
         content="Fresh energy and healthy time with refreshing minty moods."

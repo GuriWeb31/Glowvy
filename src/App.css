@@ -46,3 +46,26 @@ h1.elegance {
 .sign-up:hover {
     background: #28af58;
 }
+
+.floating {
+  animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+.fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.7s ease-out;
+}
+
+.fade-up.show {
+  opacity: 1;
+  transform: translateY(0px);
+}
