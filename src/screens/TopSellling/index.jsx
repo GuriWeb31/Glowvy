@@ -1,5 +1,8 @@
 import React from 'react'
 import topproone from '../../assets/images/topproone.png'
+import topprotwo from '../../assets/images/topprotwo.png'
+import topprothree from '../../assets/images/topprothree.png'
+import topprofour from '../../assets/images/topprofour.png'
 import cart from '../../assets/images/cart.svg'
 
 const TopSelling = () => {
@@ -14,48 +17,48 @@ const TopSelling = () => {
             </p>
             <div className='grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-4 gap-6'>
                 <div>
-                    <div className='border border-[#011e10] p-5 rounded-[12px]'>
+                    <div className='border border-[#c5c2bc] p-5 hover:scale-105 duration-300 rounded-[12px]'>
                         <img src={topproone} alt='prod1'></img>
                         <h4 className='text-[24px] font-medium mb-4'>Mycorrhizal Fungi with Beneficial Bacteria</h4>
                         <div className='flex justify-between items-center'>
                             <div><p className='text-[22px] font-medium'><span className='text-gray-400 text-[16px]'>$</span>14.95</p></div>
-                            <div className='bg-[#011e10] px-5 py-[6px] rounded-[10px]'>
+                            <div className='bg-[#011e10] px-5 py-[6px] rounded-[10px] hover:bg-[#28AF58]'>
                                 <img src={cart} alt='' className='filter invert w-6'/>
                                 </div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div className='border border-[#011e10] p-5 rounded-[12px]'>
-                        <img src={topproone} alt='prod1'></img>
+                    <div className='border border-[#c5c2bc] p-5 hover:scale-105 duration-300 rounded-[12px]'>
+                        <img src={topprotwo} alt='prod1'></img>
                         <h4 className='text-[24px] font-medium mb-4'>Mycorrhizal Fungi with Beneficial Bacteria</h4>
                         <div className='flex justify-between items-center'>
                             <div><p className='text-[22px] font-medium'><span className='text-gray-400 text-[16px]'>$</span>14.95</p></div>
-                            <div className='bg-[#011e10] px-5 py-[6px] rounded-[10px]'>
+                            <div className='bg-[#011e10] px-5 py-[6px] rounded-[10px] hover:bg-[#28AF58]'>
                                 <img src={cart} alt='' className='filter invert w-6'/>
                                 </div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div className='border border-[#011e10] p-5 rounded-[12px]'>
-                        <img src={topproone} alt='prod1'></img>
+                    <div className='border border-[#c5c2bc] p-5 hover:scale-105 duration-300 rounded-[12px]'>
+                        <img src={topprothree} alt='prod1'></img>
                         <h4 className='text-[24px] font-medium mb-4'>Mycorrhizal Fungi with Beneficial Bacteria</h4>
                         <div className='flex justify-between items-center'>
                             <div><p className='text-[22px] font-medium'><span className='text-gray-400 text-[16px]'>$</span>14.95</p></div>
-                            <div className='bg-[#011e10] px-5 py-[6px] rounded-[10px]'>
+                            <div className='bg-[#011e10] px-5 py-[6px] rounded-[10px] hover:bg-[#28AF58]'>
                                 <img src={cart} alt='' className='filter invert w-6'/>
                                 </div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div className='border border-[#011e10] p-5 rounded-[12px]'>
-                        <img src={topproone} alt='prod1'></img>
+                    <div className='border border-[#c5c2bc] p-5 hover:scale-105 duration-300 rounded-[12px]'>
+                        <img src={topprofour} alt='prod1'></img>
                         <h4 className='text-[24px] font-medium mb-4'>Mycorrhizal Fungi with Beneficial Bacteria</h4>
                         <div className='flex justify-between items-center'>
                             <div><p className='text-[22px] font-medium'><span className='text-gray-400 text-[16px]'>$</span>14.95</p></div>
-                            <div className='bg-[#011e10] px-5 py-[6px] rounded-[10px]'>
+                            <div className='bg-[#011e10] px-5 py-[6px] rounded-[10px] hover:bg-[#28AF58]'>
                                 <img src={cart} alt='' className='filter invert w-6'/>
                                 </div>
                         </div>
