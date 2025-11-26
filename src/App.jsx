@@ -5,12 +5,14 @@ import Navbar from './screens/Inc/Navbar';
 import Footer from './screens/Inc/Footer';
 import Banner from './screens/Inc/Banner';
 import WhyChoose from './screens/WhyChoose';
+import Benifits from './screens/Benifits';
 
 function Home() {
   return (
     <>
       <Banner />  
       <WhyChoose />
+      <Benifits />
     </>
   );
 }
