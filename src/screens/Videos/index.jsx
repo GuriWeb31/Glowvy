@@ -14,7 +14,7 @@ const Videos = () => {
       ([entry]) => {
         if (entry.isIntersecting) setVisible(true);
       },
-      { threshold: 0.2 }
+      { threshold: 0.4 }
     );
 
     if (sectionRef.current) observer.observe(sectionRef.current);
