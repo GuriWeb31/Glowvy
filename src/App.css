@@ -49,7 +49,7 @@ span.elegance {
     transition: 0.3s;
 }
 .sign-up:hover {
-    background: #28af58;
+    background: #011e10;
 }
 
 .floating {
@@ -87,4 +87,15 @@ input#email:focus {
 ::selection {
     background: #28af58;
     color: #fff;
+}
+.swiper-wrapper {
+    margin-bottom: 45px;
+    margin-top: 13px;
+}
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: #60ad44 !important;
+}
+.yellow-star {
+    filter: brightness(0) saturate(100%) invert(65%) sepia(81%) saturate(748%) hue-rotate(1deg) brightness(101%) contrast(101%);
 }

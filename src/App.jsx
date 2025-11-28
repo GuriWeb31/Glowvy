@@ -5,10 +5,14 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './screens/Inc/Navbar';
 import Footer from './screens/Inc/Footer';
-import Banner from './screens/Inc/Banner';
+import Banner from './screens/Banner';
 import WhyChoose from './screens/WhyChoose';
 import Benifits from './screens/Benifits';
 import TopSelling from './screens/TopSellling';
+import Videos from './screens/Videos';
+import CustomerReviews from './screens/CutomerReviews';
+import BestSelling from './screens/BestSelling';
+import Newsletter from './screens/Newsletter';
 
 
 function Home() {
@@ -18,6 +22,10 @@ function Home() {
       <WhyChoose />
       <Benifits />
       <TopSelling />  
+      <Videos />
+      <CustomerReviews />
+      <BestSelling />
+      <Newsletter />
     </>
   );
 }

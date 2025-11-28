@@ -21,15 +21,15 @@ const Footer = () => {
             </div>
             <div className='pl-20'>
               <h3 className='text-[20px] font-semibold pb-4 '>Sitemap</h3>
-              <p className='text-[18px] pb-3 text-[#222222]'>Home</p>
-              <p className='text-[18px] pb-3 text-[#222222]'>About</p>
-              <p className='text-[18px] pb-3 text-[#222222]'>All Product</p>
-              <p className='text-[18px] text-[#222222]'>How to use</p>
+              <p className='text-[16px] pb-3 text-[#424242]'>Home</p>
+              <p className='text-[16px] pb-3 text-[#424242]'>About</p>
+              <p className='text-[16px] pb-3 text-[#424242]'>All Product</p>
+              <p className='text-[16px] text-[#424242]'>How to use</p>
             </div>
             <div>
               <h3 className='text-[20px] font-semibold pb-4'>Legal</h3>
-              <p className='text-[18px] pb-3 text-[#222222]'>Terms of Services</p>
-              <p className='text-[18px] text-[#222222]'>Privacy Policy</p>
+              <p className='text-[16px] pb-3 text-[#424242]'>Terms of Services</p>
+              <p className='text-[16px] text-[#424242]'>Privacy Policy</p>
             </div>
             <div>
               <h3 className='text-[38px] font-semibold pb-3'>Lets's Talk Us</h3>

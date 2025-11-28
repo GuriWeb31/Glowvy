@@ -35,7 +35,7 @@ const Benifits = () => {
   ];
 
   return (
-    <section ref={sectionRef} className="px-5 py-32">
+    <section ref={sectionRef} className="px-5 pt-30 pb-20">
       <div className="max-w-screen-xl m-auto">
         <div className="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 gap-10">
           
@@ -95,7 +95,7 @@ const Benifits = () => {
             style={{ transitionDelay: '400ms' }}
           >
             <h1 className="text-[52px] leading-16 font-bold">
-              The Benifit of <br />
+              The Benefit of <br />
               This <span className="elegance text-[52px] text-[#60AD44] font-medium">Product</span>
             </h1>
             <p className="text-[#222222] text-[20px] mt-3 mr-4">

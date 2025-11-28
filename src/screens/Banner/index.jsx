@@ -1,9 +1,9 @@
 import React from 'react'
-import close from '../../../assets/images/close.png'
-import eyes from '../../../assets/images/eyes.png'
-import bottle from '../../../assets/images/bottle.png'
-import happywomen from '../../../assets/images/happywomen.jpg'
-import Accordion from '../../Accordion'
+import close from '../../assets/images/close.png'
+import eyes from '../../assets/images/eyes.png'
+import bottle from '../../assets/images/bottle.png'
+import happywomen from '../../assets/images/happywomen.jpg'
+import Accordion from '../Accordion'
 
 const Banner = () => {
   return (
