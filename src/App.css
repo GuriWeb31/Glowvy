@@ -99,3 +99,9 @@ input#email:focus {
 .yellow-star {
     filter: brightness(0) saturate(100%) invert(65%) sepia(81%) saturate(748%) hue-rotate(1deg) brightness(101%) contrast(101%);
 }
+.swiper-button-next, .swiper-button-prev {
+    display: none !important;
+}
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    display: none;
+}
