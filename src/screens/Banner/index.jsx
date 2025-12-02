@@ -14,9 +14,9 @@ const Banner = () => {
             <h1 className='text-[68px] leading-20 font-semibold'>Indulge in Pure<span className='inline-flex'><img src={eyes} alt='' className='w-full ml-5' /></span> </h1>
             <h1 className='elegance text-[68px] text-[#60AD44]'>Elegance</h1>
 
-            <h2 className='text-[38px] mt-17'>$39.00  </h2>
-            <p className='text-[#222222] text-[20px] mt-10 mr-4'>Fresh energy and healthy time with refreshing minty moods</p>
-            <button className='bg-[#28AF58] text-white px-10 py-4 text-[18px] rounded-[8px] mt-8'>Add to cart</button>
+            <h2 className='text-[38px] xl:mt-17 md:mt-17 lg:mt-17 sm:mt-8 mt-8'>$39.00  </h2>
+            <p className='text-[#222222] text-[20px] xl:mt-10 lg:mt-10 md:mt-10 sm:mt-0 mt-0  xl:mr-4 lg:mr-4 md:mr-4 sm:mr-0 mr-0' >Fresh energy and healthy time with refreshing minty moods</p>
+            <button className='bg-[#28AF58] text-white px-10 py-4 text-[18px] rounded-[8px] mt-8 xl:mb-0 lg:mb-0 md:mb-0 sm:mb-8 mb-8'>Add to cart</button>
           </div>
           <div className=''>
             <div className='relative animate-fadeUp '>

@@ -8,8 +8,13 @@ const Videos = () => {
   const sectionRef = useRef(null);
   const [visible, setVisible] = useState(false);
 
-  // 👇 Observer for scroll animation
   useEffect(() => {
+    // 📌 Mobile Fix — On reload, show images instantly
+    if (window.innerWidth < 768) {
+      setVisible(true);
+      return;
+    }
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) setVisible(true);
@@ -40,9 +45,9 @@ const Videos = () => {
               key={index}
               className={`transition-all duration-700 rounded-[12px]
               ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}
-              `}
+            `}
               style={{
-                transitionDelay: `${index * 200}ms`, // 👈 stagger delay
+                transitionDelay: `${index * 200}ms`,
               }}
             >
               <img src={img} alt="" className="rounded-[12px]" />
